@@ -9,7 +9,9 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play One More Day.</tw-noscript></noscript></tw-story>
-<tw-storydata name="One More Day" startnode="3" creator="Twine" creator-version="2.11.1" format="Harlowe" format-version="3.3.9" ifid="905B2032-FFD6-4000-9878-6E6831A85ED4" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Start" tags="" position="650,275" size="100,100">(set: $time to 17)
+<tw-storydata name="One More Day" startnode="3" creator="Twine" creator-version="2.11.1" format="Harlowe" format-version="3.3.9" ifid="905B2032-FFD6-4000-9878-6E6831A85ED4" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="Apartment" color="blue"></tw-tag><tw-passagedata pid="1" name="Start" tags="Apartment" position="650,275" size="100,100">(set: $time to 17)
+
+&lt;img class=&quot;story-image&quot; src=&quot;./images/apartment-medium.jpg&quot;/&gt;
 
 you pour yourself a cup of coffee putting into a thermal mug. if you want to make the most of the day after all, you&#39;ve gotta be awake for it 
 
@@ -18,22 +20,7 @@ you pour yourself a cup of coffee putting into a thermal mug. if you want to mak
 
 
 
-
-
-
-
 Time remaining: $time hours
-
-(link: &quot;Go outside &quot;)[
-    (set: $time to $time - 1)
-    (if: $time &lt;= 0)[
-        (goto: &quot;GameOver&quot;)
-    ]
-    (else:)[
-        (goto: &quot;Outside&quot;)
-    ]
-]
-
 
 </tw-passagedata><tw-passagedata pid="2" name="GameOver" tags="" position="150,275" size="100,100">
 And eveything fades to black. You hope you&#39;ve spent your time wisely
@@ -51,7 +38,7 @@ And eveything fades to black. You hope you&#39;ve spent your time wisely
 
 
 </tw-passagedata><tw-passagedata pid="4" name="Begin" tags="" position="500,275" size="100,100">
-[[Start]] </tw-passagedata><tw-passagedata pid="5" name="Phone Call" tags="" position="800,275" size="100,100">
+[[Start]] </tw-passagedata><tw-passagedata pid="5" name="Phone Call" tags="Apartment" position="800,275" size="100,100">
 
 [[Keep it a secret]]
 
@@ -64,7 +51,7 @@ And eveything fades to black. You hope you&#39;ve spent your time wisely
     (else:)[
         (goto: &quot;Truth&quot;)
     ]
-]</tw-passagedata><tw-passagedata pid="6" name="Keep it a secret" tags="" position="975,275" size="100,100">
+]</tw-passagedata><tw-passagedata pid="6" name="Keep it a secret" tags="Apartment" position="975,275" size="100,100">
 
 you keep it to herself 
 
