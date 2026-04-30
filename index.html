@@ -44,7 +44,7 @@ tw-passage img {
 
 &lt;img class=&quot;story-image&quot; src=&quot;./images/apartment-medium.jpeg&quot;/&gt;
 
-You wake up, a slight pang of discomfort flowing across your body. A long night spent in dark rooms with strobing lights and strangers. getting out of bed, you quickly run a cold shower, and throw on your cleanest, most comfortable outfit. //Why spent my last day feeling uncomfortable?//
+You wake up, a slight pang of discomfort flowing across your body .Getting out of bed, you quickly run a cold shower, and throw on your cleanest, most comfortable outfit. //Why spent my last day feeling uncomfortable?//
 You pour yourself a cup of coffee putting into a thermal mug. if you want to make the most of the day after all, you&#39;ve gotta be awake for it. 
 before you can decide what to do next, you hear the sound of a [[phone call]] buzzing from your phone left on the coffee table.
 
@@ -122,15 +122,15 @@ Time remaining: $time hours
 
 waiting to family arrive 
 
-[[option 1]]
+[[Wait 1]]
 
-[[option 2]]
+[[Wait 2]]
 
-[[option 3]]
+[[Wait 3]]
 
-[[option 4]]
+[[Wait 4]]
 
-[[option 5]]</tw-passagedata><tw-passagedata pid="8" name="option 1" tags="" position="225,675" size="100,100">
+[[Wait 5]]</tw-passagedata><tw-passagedata pid="8" name="Wait 1" tags="" position="225,675" size="100,100">
 option 1 
 
 Time remaining: $time hours&#39;&#39;
@@ -145,7 +145,7 @@ Time remaining: $time hours&#39;&#39;
         (goto: &quot;Family Arrives&quot;)
     ]
 ]
-</tw-passagedata><tw-passagedata pid="9" name="option 2" tags="" position="375,675" size="100,100">option 2
+</tw-passagedata><tw-passagedata pid="9" name="Wait 2" tags="" position="375,675" size="100,100">option 2
 Time remaining: $time hours
 
 
@@ -158,7 +158,7 @@ Time remaining: $time hours
         (goto: &quot;Family Arrives&quot;)
     ]
 ]
-</tw-passagedata><tw-passagedata pid="10" name="option 3" tags="" position="500,675" size="100,100">
+</tw-passagedata><tw-passagedata pid="10" name="Wait 3" tags="" position="500,675" size="100,100">
 option 3
 
 Time remaining: $time hours
@@ -173,7 +173,7 @@ Time remaining: $time hours
         (goto: &quot;Family Arrives&quot;)
     ]
 ]
-</tw-passagedata><tw-passagedata pid="11" name="option 4" tags="" position="625,675" size="100,100">
+</tw-passagedata><tw-passagedata pid="11" name="Wait 4" tags="" position="625,675" size="100,100">
 option 4
 
 Time remaining: $time hours
@@ -188,7 +188,7 @@ Time remaining: $time hours
         (goto: &quot;Family Arrives&quot;)
     ]
 ]
-</tw-passagedata><tw-passagedata pid="12" name="option 5" tags="" position="750,675" size="100,100">
+</tw-passagedata><tw-passagedata pid="12" name="Wait 5" tags="" position="750,675" size="100,100">
 option 5
 
 Time remaining: $time hours
@@ -262,7 +262,7 @@ Time remaining: $time hours
 </tw-passagedata><tw-passagedata pid="15" name="Driving" tags="" position="1125,425" size="100,100">
 &lt;img class=&quot;story-image&quot; src=&quot;./images/Travel-medium.jpeg&quot;/&gt;
 
-Your eyes lock onto the paiting hanging above the couch, one youve seen almost everytime you come home. You always wanted to go to the lake, not just from what you imagine is the quite serenity and georgeous view that no doubt occupies it, but because out there, away from all the suffocating city lights, You can get a look at the un filtered night sky. //must be one hell of a view//. it would take all day to get there, but you&#39;re determined to see it. You pack a bag, only needing the essentials, and start heading to your destination. 
+Your eyes lock onto the paiting hanging above the couch left behind by the previous tenant,one you&#39;ve seen almost everytime you come home. You always wanted to go to the lake, not just from what you imagine is the quite serenity and gorgeous view that no doubt occupies it, but because out there, away from all the suffocating city lights, You can get a look at the un-filtered night sky. //must be one hell of a view//. It would take all day to get there, but you&#39;re determined to see it. You pack a bag, only needing the essentials, and start heading to your destination. 
 
 Time remaining: $time hours
 
@@ -278,7 +278,7 @@ Time remaining: $time hours
 ]
 
 </tw-passagedata><tw-passagedata pid="16" name="arriving at lake" tags="" position="1125,550" size="100,100">
-description of lake, waiting for night time
+Description of lake, waiting for night time
 
 
 
@@ -297,7 +297,7 @@ Time remaining: $time hours
 ]
 </tw-passagedata><tw-passagedata pid="17" name="View of the Stars" tags="" position="1125,675" size="100,100">
 &lt;img class=&quot;story-image&quot; src=&quot;./images/laketyrell.jpeg&quot;/&gt;
-you get the view you were looking for. it is beautifal. perhaps you could have done more today, but maybe this was enough, the final thing you seen in this world will be one that your lucky enough to see in a lifetime. 
+You get the view you were looking for. it is beautiful. Perhaps you could have done more today, but maybe this was enough, the final thing you seen in this world will be one that your lucky enough to see in a lifetime. 
 
 Time remaining: $time hours
 (link: &quot;you take another drag of your cigarette&quot;)[
@@ -335,7 +335,7 @@ type();
   &lt;p&gt;by Daniel V&lt;/p&gt;
 
   (link: &quot;Begin&quot;)[ (goto: &quot;Begin&quot;) ]
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="20" name="Write Will" tags="" position="1500,225" size="100,100">(link: &quot;Pick up the Phone &quot;)[
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="20" name="Will" tags="" position="1500,225" size="100,100">(link: &quot;Pick up the Phone &quot;)[
     (set: $time to $time - 0.5)
     (if: $time &lt;= 0)[
         (goto: &quot;GameOver&quot;)
@@ -413,7 +413,7 @@ type();
 (live: 10s)[
     (go-to: &quot;Keep it a secret&quot;)
 ]
-</tw-passagedata><tw-passagedata pid="26" name="movie binge/spoiler dive" tags="" position="1875,225" size="100,100">(link: &quot;Pick up the Phone &quot;)[
+</tw-passagedata><tw-passagedata pid="26" name="spoiler dive" tags="" position="1875,225" size="100,100">(link: &quot;Pick up the Phone &quot;)[
     (set: $time to $time - 0.5)
     (if: $time &lt;= 0)[
         (goto: &quot;GameOver&quot;)
@@ -446,7 +446,7 @@ e
 (live: 10s)[
     (go-to: &quot;Keep it a secret&quot;)
 ]
-</tw-passagedata><tw-passagedata pid="28" name="Untitled Passage 1" tags="" position="1875,350" size="100,100">(link: &quot;Pick up the Phone &quot;)[
+</tw-passagedata><tw-passagedata pid="28" name="Friend 1" tags="" position="1900,650" size="100,100">(link: &quot;Pick up the Phone &quot;)[
     (set: $time to $time - 0.5)
     (if: $time &lt;= 0)[
         (goto: &quot;GameOver&quot;)
@@ -498,7 +498,7 @@ e
 (live: 10s)[
     (go-to: &quot;Keep it a secret&quot;)
 ]
-</tw-passagedata><tw-passagedata pid="32" name="Untitled Passage 2" tags="" position="1875,525" size="100,100">(link: &quot;Pick up the Phone &quot;)[
+</tw-passagedata><tw-passagedata pid="32" name="Friend 2" tags="" position="1900,775" size="100,100">(link: &quot;Pick up the Phone &quot;)[
     (set: $time to $time - 0.5)
     (if: $time &lt;= 0)[
         (goto: &quot;GameOver&quot;)
@@ -511,7 +511,7 @@ e
 (live: 10s)[
     (go-to: &quot;Keep it a secret&quot;)
 ]
-</tw-passagedata></tw-storydata>
+</tw-passagedata><tw-passagedata pid="33" name="Game" tags="" position="2175,775" size="100,100"></tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
