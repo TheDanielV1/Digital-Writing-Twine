@@ -55,7 +55,7 @@ Time remaining: $time hours
 </tw-passagedata><tw-passagedata pid="2" name="GameOver" tags="" position="150,275" size="100,100">
 And eveything fades to black. You hope you&#39;ve spent your time wisely
  
-(link: &quot;Restart&quot;)[(goto: &quot;Start&quot;)]</tw-passagedata><tw-passagedata pid="3" name="Begin" tags="" position="500,275" size="100,100">&lt;div id=&quot;typewriter&quot;&gt;&lt;/div&gt;
+(link: &quot;Restart&quot;)[(goto: &quot;Title&quot;)]</tw-passagedata><tw-passagedata pid="3" name="Begin" tags="" position="500,275" size="100,100">&lt;div id=&quot;typewriter&quot;&gt;&lt;/div&gt;
 
 &lt;script&gt;
 const text = &quot;You have one day left. Thats it. This isn&#39;t from some ancient curse or divine will. You just woke up one day and knew the time had come. You simply have one more day, that&#39;s all. If you knew you had so little time left...... How would you use it?&quot;;
@@ -260,6 +260,7 @@ Time remaining: $time hours
     ]
 ]
 </tw-passagedata><tw-passagedata pid="15" name="Driving" tags="" position="1125,425" size="100,100">
+&lt;img class=&quot;story-image&quot; src=&quot;./images/Travel-medium.jpeg&quot;/&gt;
 
 Your eyes lock onto the paiting hanging above the couch, one youve seen almost everytime you come home. You always wanted to go to the lake, not just from what you imagine is the quite serenity and georgeous view that no doubt occupies it, but because out there, away from all the suffocating city lights, You can get a look at the un filtered night sky. //must be one hell of a view//. it would take all day to get there, but you&#39;re determined to see it. You pack a bag, only needing the essentials, and start heading to your destination. 
 
@@ -286,7 +287,7 @@ Time remaining: $time hours
 
 
 (link: &quot;you can finally see what you came here for&quot;)[
-    (set: $time to $time - 1)
+    (set: $time to $time - 4.4)
     (if: $time &lt;= 0)[
         (goto: &quot;GameOver&quot;)
     ]
@@ -295,10 +296,10 @@ Time remaining: $time hours
     ]
 ]
 </tw-passagedata><tw-passagedata pid="17" name="View of the Stars" tags="" position="1125,675" size="100,100">
+&lt;img class=&quot;story-image&quot; src=&quot;./images/laketyrell.jpeg&quot;/&gt;
+you get the view you were looking for. it is beautifal. perhaps you could have done more today, but maybe this was enough, the final thing you seen in this world will be one that your lucky enough to see in a lifetime. 
 
-you get the view you were looking for. it is beautifal. perhaps you could have done more today, but maybe this was enough, the final thing you seen in this world will be one you would only see in a lifetime
-
-
+Time remaining: $time hours
 (link: &quot;you take another drag of your cigarette&quot;)[
     (set: $time to $time - 18)
     (if: $time &lt;= 0)[
