@@ -219,7 +219,7 @@ Time remaining: $time hours
         (goto: &quot;Family Arrives&quot;)
     ]
 ]
-</tw-passagedata><tw-passagedata pid="14" name="House" tags="" position="1675,350" size="100,100">For a moment you take in the gravity of the situation. as you glance around your apartment you find you eyes searching for a hint of how to spend this day, what you can do that won&#39;t leaving you filled with regret. 
+</tw-passagedata><tw-passagedata pid="14" name="House" tags="" position="1675,350" size="100,100">For a moment you take in the gravity of the situation. as you glance around your apartment you find you eyes searching for a hint of how to spend this day, what you can do that won&#39;t leaving you filled with regret?
 
 Time remaining: $time hours
 
@@ -278,13 +278,7 @@ Time remaining: $time hours
 ]
 
 </tw-passagedata><tw-passagedata pid="16" name="arriving at lake" tags="" position="1125,550" size="100,100">
-Description of lake, waiting for night time
-
-
-
-
-Time remaining: $time hours
-
+It was a long drive. At points you had to blare music through the radio just to keep yourself going. But finally you get there, with a few hours left to spare. Getting out of the Car you quickly grab a bottle of liquor, food and cigarettes. After all, wouldn&#39;t want to be distracted by that gorgeous view by thinking how much you could use a sandwhich. And after a couple minutes of hiking, taking a moment every now and then to catch your breath, 
 
 (link: &quot;you can finally see what you came here for&quot;)[
     (set: $time to $time - 4.4)
@@ -295,12 +289,13 @@ Time remaining: $time hours
         (goto: &quot;View of the Stars&quot;)
     ]
 ]
-</tw-passagedata><tw-passagedata pid="17" name="View of the Stars" tags="" position="1125,675" size="100,100">
+
+Time remaining: $time hours</tw-passagedata><tw-passagedata pid="17" name="View of the Stars" tags="" position="1125,675" size="100,100">
 &lt;img class=&quot;story-image&quot; src=&quot;./images/laketyrell.jpeg&quot;/&gt;
-You get the view you were looking for. it is beautiful. Perhaps you could have done more today, but maybe this was enough, the final thing you seen in this world will be one that your lucky enough to see in a lifetime. 
+You get the view you were looking for. it is beautiful. you lie down against a large oak tree, slowly filling your mouth with food and liquor ensuring to savour every last sensation of flavour. Perhaps you could have done more today, but maybe this was enough, the final thing you seen in this world will be one that your lucky enough to see in a lifetime. 
 
 Time remaining: $time hours
-(link: &quot;you take another drag of your cigarette&quot;)[
+(link: &quot;you take a drag of your cigarette&quot;)[
     (set: $time to $time - 18)
     (if: $time &lt;= 0)[
         (goto: &quot;GameOver&quot;)
